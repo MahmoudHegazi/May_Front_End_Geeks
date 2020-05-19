@@ -248,6 +248,18 @@ clip-path: polygon(56% 9%, 100% 1%, 100% 74%, 0 92%, 0% 75%, 0 19%);
       width: 100%;
       margin-bottom: 35px;
     }
+        * {
+   box-sizing: border-box;
+    }
+    .zoom {
+      transition: transform .3s !important;
+    }
+
+    .zoom:hover {
+      -ms-transform: scale(.5) !important; /* IE 9 */
+      -webkit-transform: scale(.5) !important;/* Safari 3-8 */
+      transform: scale(.5) !important;
+   }
   }
   @media screen and (max-width: 480px) {
     .logo {
@@ -258,6 +270,18 @@ clip-path: polygon(56% 9%, 100% 1%, 100% 74%, 0 92%, 0% 75%, 0 19%);
     
 
     }
+    * {
+   box-sizing: border-box;
+    }
+    .zoom {
+      transition: transform .2s !important;
+    }
+
+    .zoom:hover {
+      -ms-transform: scale(.5) !important; /* IE 9 */
+      -webkit-transform: scale(.5) !important;/* Safari 3-8 */
+      transform: scale(.5) !important;
+   }
   }
   .jumbotron #calculator_h1 {
     color: black !important;
