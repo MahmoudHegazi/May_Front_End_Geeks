@@ -315,3 +315,18 @@ clip-path: polygon(56% 9%, 100% 1%, 100% 74%, 0 92%, 0% 75%, 0 19%);
 #contact {
    background-color:lightgray;
 }
+
+/* zoom style */
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
