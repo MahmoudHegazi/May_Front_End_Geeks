@@ -310,19 +310,7 @@ clip-path: polygon(56% 9%, 100% 1%, 100% 74%, 0 92%, 0% 75%, 0 19%);
 .color_gold {
   color: gold;
 }
-.info {
-   border: 2px solid #ddd;
-  margin-top: -14px;
-  line-height: 1.4rem;
-  padding: .8rem;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
+
 
 #contact {
    background-color:lightgray;
